@@ -1,2 +1,7 @@
+# Files
 .vercel
-node_modules
+.env
+
+# Folders
+/node_modules
+/scripts

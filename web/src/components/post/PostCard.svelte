@@ -10,7 +10,7 @@
     <img
       src={post.user.avatar}
       alt={post.user.username}
-      class="w-8 h-8 rounded-full object-cover"
+      class="hidden sm:block w-10 h-10 rounded-full object-cover"
     />
     <div class="w-full">
       <p>{post.user.name} (@{post.user.username})</p>
@@ -24,7 +24,7 @@
       <h2 class="mb-2 text-3xl font-bold tracking-tighter">
         {post.title}
       </h2>
-      <ul class="mb-2 flex gap-2">
+      <ul class="mb-2 flex gap-2 flex-wrap">
         {#each post.tags as tag}
           <a
             href="/"
@@ -34,7 +34,7 @@
           </a>
         {/each}
       </ul>
-      <div class="flex justify-end gap-4">
+      <div class="flex justify-end gap-4 text-sm">
         <p class="text-zinc-400">{post.readTime} min read</p>
         <div class="flex items-center gap-1 text-zinc-500">
           <svg
@@ -43,7 +43,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-5 h-5"
+            class="w-4 h-4"
           >
             <path
               stroke-linecap="round"
@@ -60,7 +60,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-5 h-5"
+            class="w-4 h-4"
           >
             <path
               stroke-linecap="round"

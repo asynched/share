@@ -1,4 +1,4 @@
-<header class="mb-8 border-b border-zinc-900 py-4">
+<header class="px-4 xl:px-0 mb-8 border-b border-zinc-900 py-4">
   <div class="max-w-screen-xl mx-auto flex items-center justify-between">
     <div class="flex gap-4 items-center">
       <div
@@ -7,7 +7,7 @@
         <h1>Share</h1>
       </div>
       <search
-        class="flex items-center border border-zinc-900 py-1 px-4 rounded text-zinc-300"
+        class="hidden md:flex items-center border border-zinc-900 py-1 px-4 rounded text-zinc-300"
       >
         <input
           type="text"
